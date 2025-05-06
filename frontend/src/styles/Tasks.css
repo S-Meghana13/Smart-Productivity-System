@@ -1,0 +1,127 @@
+/* src/styles/Tasks.css
+
+.tasks-container {
+    padding: 2rem;
+    background-color: #f8faff;
+    min-height: 80vh;
+  }
+  
+  .task-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .task-form input,
+  .task-form select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .task-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background-color: #218838;
+  }
+  
+  .empty-state {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .task-card {
+    background-color: #ffffff;
+    border-left: 5px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .task-card.pending { border-color: #f0ad4e; }
+  .task-card.in-progress { border-color: #5bc0de; }
+  .task-card.completed { border-color: #5cb85c; }
+  
+  .task-actions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-actions button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+/* Main dashboard container */
+.tasks-dashboard {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section title */
+.tasks-dashboard h2 {
+  color: #1f2937; /* Tailwind's gray-800 */
+}
+.create-b{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+/* Task buttons */
+.tasks-dashboard .task-button {
+  transition: all 0.2s ease;
+  font-size: 14px;
+  padding: 8px 10px; /* smaller padding = smaller button */
+  border-radius: 8px;
+  background-color: #96b3ec; /* Tailwind gray-100 */
+  color: #111827; /* Tailwind gray-900 */
+  text-align: center;
+  width: 500px;
+  border: none;
+}
+.flex-d{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tasks-dashboard .task-button:hover {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+}

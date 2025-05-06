@@ -1,0 +1,58 @@
+/* Container for the entire insights section */
+.insights-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Heading style */
+  .insights-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Loading and error messages */
+  .insights-loading,
+  .insights-error,
+  .insights-empty {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .insights-error {
+    color: #dc2626;
+  }
+  
+  /* Responsive chart */
+  .insights-chart {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  /* Optional: animate chart container */
+  .insights-chart {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.para-s{
+    padding-left: 50px;
+}  

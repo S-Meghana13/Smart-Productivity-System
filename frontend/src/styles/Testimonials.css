@@ -1,0 +1,67 @@
+
+
+
+   /* General section styling */
+.testimonials {
+  color: #5f5757;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonials h2 span {
+  color: #ffc107;
+}
+
+/* Slider container styling */
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Card styling */
+.testimonials .card {
+  background-color: #d3d3d3;
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 500px;
+  min-height: 160px;
+  box-shadow: 0 8px 16px rgba(223, 217, 217, 0.3);
+}
+
+/* Quote styling */
+.quote {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Author styling */
+.author {
+  color: #66b2ff;
+  font-weight: bold;
+}
+
+/* Arrow button styling */
+.arrow {
+  background-color: #1876d1;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: #125aa6;
+}

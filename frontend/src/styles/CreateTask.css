@@ -1,0 +1,130 @@
+/*.task-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .task-form input,
+  .task-form textarea,
+  .task-form select,
+  .task-form button {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;.task-form {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.2);
+    }
+    
+    .task-form input,
+    .task-form textarea,
+    .task-form select,
+    .task-form button {
+      width: 90%;
+      margin: 10px 0;
+      padding: 10px;
+      color:black;
+      border:2px solid white;
+    }
+    
+    .task-form button {
+      background-color: blue;
+      color:white;
+      border: none;
+      cursor: pointer;
+    }
+    .task-form input::placeholder,
+  .task-form textarea::placeholder {
+    color: black; /* Change to any color *
+    opacity: 1; /* Ensure visibility (some browsers lower opacity by default) *
+    border:white;
+    background-color: transparent;
+    
+  }
+  h2{
+      color:black;
+  }
+    color:black;
+    border:2px solid white;
+  }
+  
+  .task-form button {
+    background-color: blue;
+    color:white;
+    border: none;
+    cursor: pointer;
+  }
+  .task-form input::placeholder,
+.task-form textarea::placeholder {
+  color: black; /* Change to any color *
+  opacity: 1; /* Ensure visibility (some browsers lower opacity by default) *
+  border:white;
+  background-color: transparent;
+  
+}
+h2{
+    color:black;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+
+*/
+
+
+.task-form {
+  width: 100%;
+  max-width: 700px; /* or 100%, or remove entirely */
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select,
+.task-form button {
+  width: 100%; /* Stretch to full width of form */
+  margin: 10px 0;
+  padding: 10px;
+  color: black;
+  border: 2px solid white;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.task-form input::placeholder,
+.task-form textarea::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.task-form button {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+
+}
+
+h2 {
+  color: black;
+}
+h1 {
+  font-size: 1rem;
+}
+.button-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

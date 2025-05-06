@@ -1,0 +1,485 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1876d1;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: url('https://images.unsplash.com/photo-1588776814546-ec7e25c5b3c0') center/cover no-repeat;
+    background-attachment:scroll;
+    text-align: center;
+    padding: 8rem 2rem;
+    color:white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  /* About Section */
+.section-about {
+  background: #d6d8da;
+  padding: 4rem 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.section-about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Contact Section */
+.section-contact {
+  padding: 4rem 2rem;
+  background-color: #e2dfdf;
+  text-align: center;
+}
+
+.section-contact h2 {
+  font-size: 2.5rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.section-contact p {
+  font-size: 1.1rem;
+  color: #555;
+}
+.footer {
+  background-color: #484c4e;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 0rem;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+  
+  /*.section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.986);
+  }
+  
+  .section h2 {
+    margin-bottom: 1rem;
+    color:white;
+  }
+  
+  .section p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    color:white;
+  }*/
+
+/* Sections: About & Contact 
+.section-about {
+  padding: 60px 20px;
+  text-align: center;
+  /*background: linear-gradient(to right, #0f2027, #203a43, #2c5364);  dark gradient 
+  color: #f1f1f1;
+  transition: background 0.3s ease;
+}
+.section-contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);  /*dark gradient 
+  color: #f1f1f1;
+  transition: background 0.3s ease;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-bottom: 2px solid #1876d1;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.section p {
+  max-width: 700px;
+  margin: 1rem auto 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+}
+
+.section strong {
+  color: #ffffff;
+  font-weight: 600;
+}*/
+
+  .get-started-btn {
+    background-color: #0f63e0;
+    color: white;
+    padding: 20px 25px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; /* <- Important: prevents full-width stretching */
+    width: auto;            /* <- Optional: ensures no inherited width */
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #45a049;
+  }
+   
+/* Features Section */
+.features-section {
+  /*background: #f9f9f9;*/
+  padding: 3rem 2rem;
+  
+  text-align: center;
+}
+
+.features-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: rgb(7, 7, 7);
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.feature-card {
+  background-color: rgb(238, 225, 225);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.5rem;
+  width: 260px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.section-gap {
+  height: 50px; /* You can adjust height as needed */
+  background-color: #eaeaea; /* Any background color for contrast */
+}
+
+/* About Us Section */
+.about-us-full {
+  width: 100%;
+  min-height: 100vh; /* Full screen height */
+  background-color: #c2c2bc; /* Light beige background */
+  padding: 20px 20px;
+  margin-top: 0cm;
+  display: flex;
+  align-items: center;       /* Vertically center */
+  justify-content: center;   /* Horizontally center */
+}
+
+.about-content {
+  max-width: 1000px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin-top: -140px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1876d1;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+
+
+
+   /* Home.css 
+ 
+.home-section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  padding-bottom: 4rem;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #0ea5e9, #38bdf8);
+  color: white;
+  padding: 5rem 2rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.get-started-btn {
+  padding: 0.75rem 2rem;
+  background-color: white;
+  color: #0ea5e9;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #f0f9ff;
+  transform: scale(1.05);
+}
+
+.section {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.section h2 {
+  color: #0ea5e9;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .get-started-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .section {
+    padding: 1.5rem;
+  }
+} 
+
+
+/* Hero Section 
+.hero {
+  background: linear-gradient(120deg, #fceabb, #f8b500);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.get-started-btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #fff;
+  color: #f8b500;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.get-started-btn:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.05);
+}
+
+/* Features Section 
+.features-section {
+  background: #f9f9f9;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.features-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: orange;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.5rem;
+  width: 260px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* About Section 
+.section-about {
+  background: #f0f4f8;
+  padding: 4rem 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.section-about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Contact Section 
+.section-contact {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-contact h2 {
+  font-size: 2.5rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.section-contact p {
+  font-size: 1.1rem;
+  color: #555;
+}
+*/

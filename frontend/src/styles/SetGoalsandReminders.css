@@ -1,0 +1,76 @@
+/* Container for the entire goal and reminder form */
+.goals-reminder-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of the form */
+  .title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Reminder title section */
+  .reminder-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #4a5568;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Common input field styling */
+  .input-field {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #4a5568;
+    background-color: #f7fafc;
+  }
+  
+  /* Input fields focus state */
+  .input-field:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.4);
+  }
+  
+  /* Save button styling */
+  .save-btn {
+    background-color: #2b6cb0;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-btn:hover {
+    background-color: #2c5282;
+  }
+  
+  .save-btn:active {
+    background-color: #2a4365;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .goals-reminder-container {
+      padding: 1.5rem;
+    }
+  }
+  
